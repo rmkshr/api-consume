@@ -19,8 +19,8 @@ public class ApiGatewayConfigService implements ApiGatewayConfig {
         this.apiGatewayClient = ApiGatewayClient.builder()
                 .region(Region.AP_SOUTH_1) // Set your AWS region here
                 .credentialsProvider(StaticCredentialsProvider.create(AwsBasicCredentials.create(
-                        "AKIAZPPF7UW7JHBSIYDZ",
-                        "XxSTrfL8uVZJaZYndPW8sol+QflpatsQYXf0unOG")))
+                        "YOUR ACCESS KEY",
+                        "YOUR SECRET KEY")))
                 .build();
     }
 
