@@ -28,6 +28,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     // AWS SDK for API Gateway
     implementation 'software.amazon.awssdk:apigateway:2.20.4' // Use the latest version
+    implementation 'net.sourceforge.tess4j:tess4j:5.7.0'
 
     // AWS SDK Core
 //    implementation 'software.amazon.awssdk:core'
